@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Comic Sans MS;
+    font-size: medium;
+    text-align: justify;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 40px;
+    background-position-x: -20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.theme-toggle {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: #3085d6;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+	background-color: #205a93;
+}
+a {
+    color: #FF5733;
+}
+
+body.dark-mode a {
+    color: #ff9a73; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    transition: background-color 0.3s;
+}
+
+body.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+body.dark-mode .navbar a:hover {
+    background-color: #444;
+}
+
+.redirect-button {
+    margin-top: 10px;
+    background-color: #3085d6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .redirect-button {
+    background-color: #205a93;
+    color: #ffffff;
+}
+
+.redirect-button:hover {
+    background-color: #1c5a8a;
+}
+
+body.dark-mode .redirect-button:hover {
+    background-color: #14416a;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .content-wrapper {
+    background-color: rgba(40, 40, 40, 0.8);
+}
+
+figure {
+    float: right;
+    margin-left: 20px;
+    margin-top: -30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+body.dark-mode figure {
+    border-color: #888;
+}
+
+
+figcaption {
+    font-style: italic;
+    font-family: Comic Sans MS;
+}
+
+#Underswap, #Underfell, #Yellow {
+    width: 50%;
+}
